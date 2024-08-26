@@ -11,8 +11,8 @@ const BetButtons: React.FC<{ signer: ethers.Signer }> = ({ signer }) => {
 
   return (
     <div>
-      <button onClick={() => handleBet(true)}>Bet UP</button>
-      <button onClick={() => handleBet(false)}>Bet DOWN</button>
+      <button onClick={() => handleBet(true)}>Bet BULL</button>
+      <button onClick={() => handleBet(false)}>Bet BEAR</button>
     </div>
   );
 };
